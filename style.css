@@ -380,13 +380,13 @@ nav ul li a.active {
   width: 500%;      /* 3 images × 2 copies */
   height: 100%;
 
-  background: 
-    url("../lanyard.jpg") center/cover no-repeat,
-    url("../fushing.jpg") center/cover no-repeat,
-    url("../holder.jpg") center/cover no-repeat,
-    url("../lanyard.jpg") center/cover no-repeat, /* repeat copy */
-    url("../fushing.jpg") center/cover no-repeat,
-    url("../holder.jpg") center/cover no-repeat;
+ background: 
+    url("../images/lanyard.jpg") center/cover no-repeat,
+    url("../images/fushing.jpg") center/cover no-repeat,
+    url("../images/holder.jpg") center/cover no-repeat,
+    url("../images/lanyard.jpg") center/cover no-repeat,
+    url("../images/fushing.jpg") center/cover no-repeat,
+    url("../images/holder.jpg") center/cover no-repeat;
 
   background-size: 16.66% 100%; /* 6 equal sections */
   background-position:
@@ -521,7 +521,7 @@ nav ul li a.active {
 }
 
 .card {
-  width: 280px;
+  width: 200px;
   background: white;
   border-radius: 12px;
   overflow: hidden;
@@ -591,7 +591,7 @@ nav ul li a.active {
 .grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
-  gap: 25px;
+  gap: 40px;
   padding: 20px;
   justify-items: center;
 }
@@ -599,7 +599,7 @@ nav ul li a.active {
 /* ======== GALLERY IMAGE FRAME ======== */
 .grid .card {
   width: 300px;             /* frame width */
-  height: 300px;            /* equal height for all */
+  height: 400px;            /* equal height for all */
   object-fit: cover;        /* image fits frame nicely */
   border-radius: 15px;      /* smooth rounded corners */
   box-shadow: 0 4px 15px rgba(0,0,0,0.25);
